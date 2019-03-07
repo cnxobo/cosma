@@ -112,8 +112,8 @@
   border-bottom-color: #ff4a4f;
 }
 .d-text-box.d-text-box-readonly {
-  border-color: #d6d6d6;
-  background: #efefef;
+  border-color: #e1e7ee;
+  background: #f6fafe;
 }
 .d-text-box .d-trigger {
   color: #000000;
@@ -222,8 +222,8 @@
   background-color: #ffe1e2;
 }
 .d-text-area.d-text-area-readonly {
-  border-color: #d6d6d6;
-  background: #efefef;
+  border-color: #e1e7ee;
+  background: #f6fafe;
 }
 .d-text-area .d-trigger {
   color: #000000;

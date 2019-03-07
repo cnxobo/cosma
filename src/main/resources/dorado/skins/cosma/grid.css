@@ -331,19 +331,20 @@
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  background-color: #f7f7f7;
+  background-color: #fff;
   color: #000000;
 }
 .d-grid .header-table .header {
   color: #000000;
-  background-color: #e9e9e9;
+  background-color: #ecf6ff;
   border-left: 1px transparent solid;
   border-right: 1px #fcfcfc solid;
   border-bottom: 1px #fcfcfc solid;
+  font-weight: bold;
 }
 .d-grid .header-table .hover-header,
 .d-grid .header-table .menu-open-header {
-  background-color: #f0f0f0;
+  background-color: #d6ecff;
 }
 .d-grid .header-table .header-option-button {
   border-left: 1px #cacaca solid;
@@ -433,7 +434,7 @@
   background-color: #51bbfb;
 }
 .d-grid .data-table .odd-row {
-  background: #f7f7f7;
+  background: #f7fbff;
 }
 .d-grid .data-table .hover-row {
   background: #c5e8fe;
@@ -627,7 +628,7 @@
 }
 .d-grid .footer-table .footer {
   color: #000000;
-  background-color: #e3e3e3;
+  background-color: #ecf6fe;
   border-top: 1px #f0f0f0 solid;
   border-left: 1px transparent solid;
   border-right: 1px #fcfcfc solid;

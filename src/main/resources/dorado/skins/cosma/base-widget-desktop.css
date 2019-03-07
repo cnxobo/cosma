@@ -1168,7 +1168,7 @@
   -moz-border-radius-topright: 3px;
   border-top-right-radius: 3px;
   color: #000000;
-  background-color: #ededed;
+  border-bottom: solid 1px #e1e7ee;
 }
 .d-caption-bar .d-icon-button {
   width: 22px;
@@ -1478,6 +1478,9 @@
   transition-property: background-color, border-color, color, box-shadow, transform;
 }
 
+.d-data-pilot .d-icon-button {
+	border-color: #f7f7f7;
+}
 
 
 .d-toolbar .d-icon-button-hover,
