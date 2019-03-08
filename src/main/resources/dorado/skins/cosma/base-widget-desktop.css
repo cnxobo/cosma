@@ -570,6 +570,7 @@
 }
 .d-tabbar {
   background-color: #fff;
+  border-bottom: 1px dashed #e1e7ed;
 }
 .d-tabbar .tab {
   color: #000000;
@@ -1464,8 +1465,8 @@
   -moz-border-radius: 3px;
   border-radius: 3px;
   color: #000000;
-  border-color: #6c757d;
-  background-color: transparent;
+  border-color: #bfbfbf;
+  background-color: #fff;
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
   -ms-transition-duration: 0.3s;
