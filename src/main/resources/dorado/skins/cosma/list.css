@@ -33,7 +33,7 @@
 .d-list-loading .mask {
   opacity: 0.1;
   filter: alpha(opacity=10);
-  background: #000000;
+  background: #007bff;;
 }
 .d-list-loading .tip {
   width: 200px;
