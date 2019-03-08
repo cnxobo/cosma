@@ -96,7 +96,7 @@
 .d-button.d-button-hover {
   color: #000000;
   border-color: #bebebe;
-  background-color: #e6e6e6;
+  background-color: #f7fbff;
 }
 .d-button.d-button-hover .d-icon {
   color: rgba(0, 0, 0, 0.7);
@@ -590,7 +590,7 @@
 }
 .d-tabbar .tab-hover {
   color: #000000;
-  background-color: #f7f7f7;
+  background-color: #f7fbff;
 }
 .d-tabbar .tab-hover .d-icon {
   color: rgba(0, 0, 0, 0.7);
@@ -1169,6 +1169,7 @@
   border-top-right-radius: 3px;
   color: #000000;
   border-bottom: solid 1px #e1e7ee;
+  background-color: #fff;
 }
 .d-caption-bar .d-icon-button {
   width: 22px;
@@ -1337,8 +1338,7 @@
   border-radius: 3px;
 }
 .d-panel .panel-body {
-/*   background-color: #f7f7f7;
-*/ 
+   background-color: #fff
 }
 /* toolbar */
 .d-toolbar {
