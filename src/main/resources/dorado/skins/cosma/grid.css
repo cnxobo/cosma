@@ -423,17 +423,19 @@
   -o-transition-property: background-color, border-color, color, -o-box-shadow, -o-transform;
   transition-property: background-color, border-color, color, box-shadow, transform;
   background: #ffffff;
+  color: rgba(0, 0, 0, 0.8);
+  /*  height: 30px; */
 }
 .d-grid .data-table .row td {
   border-left: 1px transparent solid;
   border-right: 1px rgba(0, 0, 0, 0) solid;
-  border-bottom: 1px rgba(0, 0, 0, 0) solid;
+  border-bottom: 1px #eeeeee solid;
 }
 .d-grid .data-table .row .current-cell {
   background-color: #51bbfb;
 }
 .d-grid .data-table .odd-row {
-  background: #f7fbff;
+  //background: #f7fbff;
 }
 .d-grid .data-table .hover-row {
   background: #c5e8fe;
@@ -445,7 +447,7 @@
   background: #3db4fb;
 }
 .d-grid .data-table .current-row {
-  background-color: #15a4fa;
+  background-color: #69c0ff;
 }
 .d-grid .data-table .selected-row,
 .d-grid .data-table .current-row {

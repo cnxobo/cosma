@@ -12,4 +12,42 @@
       </resource>
     </resources>
   </build>
+
+<distributionManagement>
+    <repository>
+      <id>ezy-deployment</id>
+      <name>Internal Releases</name>
+      <url>http://172.16.0.13:8081/repository/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>ezy-deployment</id>
+      <name>Internal Releases</name>
+      <url>http://172.16.0.13:8081/repository/snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
+  <repositories>
+    <repository>
+      <id>hr-maven-repository</id>
+      <url>http://172.16.0.13:8081/nexus/content/groups/public/</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>hr-maven-repository</id>
+      <url>http://172.16.0.13:8081/nexus/content/groups/public/</url>
+    </pluginRepository>
+  </pluginRepositories>
+
+ <!--  <distributionManagement>
+    <repository>
+      <id>xobo</id>
+      <name>Nexus Release Repository</name>
+      <url>https://nexus.xobo.org/content/repositories/xobo_releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>xobo</id>
+      <name>Nexus Snapshot Repository</name>
+      <url>https://nexus.xobo.org/content/repositories/xobo_snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement> -->
 </project>

@@ -75,8 +75,8 @@
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  color: #000000;
-  border-color: #d7d7d7;
+  color: #569cee;
+  border-color: #569cee;
   background-color: rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
@@ -573,7 +573,7 @@
   border-bottom: 1px dashed #e1e7ed;
 }
 .d-tabbar .tab {
-  color: #000000;
+  color: #637076;
   background-color: #fff;
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
@@ -773,6 +773,8 @@
   -webkit-box-shadow: inset 0 -3px 0 #15a4fa;
   -moz-box-shadow: inset 0 -3px 0 #15a4fa;
   box-shadow: inset 0 -3px 0 #15a4fa;
+  color: #539af1;
+  font-weight: bold;
 }
 .d-tabbar.d-tabbar-bottom .tab {
   -webkit-border-bottom-left-radius: 3px;
@@ -1409,7 +1411,7 @@
 }
 .d-toolbar {
   color: #000000;
-  background-color: #f7f7f7;
+  background-color: #fafafa;
 }
 .d-toolbar .overflow-button {
   line-height: 26px;
@@ -1464,8 +1466,8 @@
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  color: #000000;
-  border-color: #bfbfbf;
+  color: #569cee;
+  border-color: #569cee;
   background-color: #fff;
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;

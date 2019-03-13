@@ -33,14 +33,14 @@
 .d-list-loading .mask {
   opacity: 0.1;
   filter: alpha(opacity=10);
-  background: #007bff;;
+  background: #007bff;
 }
 .d-list-loading .tip {
   width: 200px;
   height: 36px;
   line-height: 36px;
   color: #000000;
-  background: #ededed;
+  background: #d5ebfd;
   padding: 4px 8px;
 }
 .d-list-loading .icon {
