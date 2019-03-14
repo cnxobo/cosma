@@ -338,8 +338,8 @@
   color: #000000;
   background-color: #ecf6ff;
   border-left: 1px transparent solid;
-  border-right: 1px #fcfcfc solid;
-  border-bottom: 1px #fcfcfc solid;
+/*   border-right: 1px #fcfcfc solid;
+ */  border-bottom: 1px #fcfcfc solid;
 }
 .d-grid .header-table .hover-header,
 .d-grid .header-table .menu-open-header {
@@ -432,26 +432,26 @@
   border-bottom: 1px #eeeeee solid;
 }
 .d-grid .data-table .row .current-cell {
-  background-color: #51bbfb;
+  background-color: #c5e8fe;
 }
 .d-grid .data-table .odd-row {
-  //background: #f7fbff;
+ /*  background: #f7fbff; */
 }
 .d-grid .data-table .hover-row {
-  background: #c5e8fe;
+  background: #f6fafe;
 }
 .d-grid .data-table .hover-row td {
   border-top-color: rgba(0, 0, 0, 0);
 }
 .d-grid .data-table .selected-row {
-  background: #3db4fb;
+  background: #c6e8fd;
+  
 }
 .d-grid .data-table .current-row {
-  background-color: #69c0ff;
+  background-color: #c6e8fd;
 }
-.d-grid .data-table .selected-row,
-.d-grid .data-table .current-row {
-  color: #ffffff;
+.d-grid .data-table .selected-row {
+  color: #000;
 }
 .d-grid .data-table .selected-row .node-button:hover,
 .d-grid .data-table .current-row .node-button:hover {
