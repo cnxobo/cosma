@@ -5,49 +5,113 @@
   <artifactId>cosma-skin</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
+  <name>${project.groupId}:${project.artifactId}</name>
+  <description>a blue dorado skin</description>
+  <url>https://github.com/cnxobo/cosma</url>
+
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>http://www.opensource.org/licenses/mit-license.php</url>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <name>Bing ZHOU</name>
+      <email>cnxobo@gmail.com</email>
+      <organization>xobo.org</organization>
+      <organizationUrl>https://xobo.org</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/cnxobo/cosma.git</connection>
+    <developerConnection>scm:git:ssh://github.com:cnxobo/cosma.git</developerConnection>
+    <url>https://github.com/cnxobo/cosma/tree/master</url>
+  </scm>
+
   <build>
     <resources>
       <resource>
         <directory>src/main/resources</directory>
       </resource>
     </resources>
+    <plugins>
+      <plugin>
+        <groupId>net.alchim31.maven</groupId>
+        <artifactId>yuicompressor-maven-plugin</artifactId>
+        <version>1.5.1</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>compress</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <suffix>.min</suffix>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.sonatype.plugins</groupId>
+        <artifactId>nexus-staging-maven-plugin</artifactId>
+        <version>1.6.7</version>
+        <extensions>true</extensions>
+        <configuration>
+          <serverId>ossrh</serverId>
+          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+          <autoReleaseAfterClose>true</autoReleaseAfterClose>
+        </configuration>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-javadoc-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-javadocs</id>
+            <goals>
+              <goal>jar</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-source-plugin</artifactId>
+        <executions>
+          <execution>
+            <id>attach-sources</id>
+            <goals>
+              <goal>jar-no-fork</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-gpg-plugin</artifactId>
+        <version>1.5</version>
+        <executions>
+          <execution>
+            <id>sign-artifacts</id>
+            <phase>verify</phase>
+            <goals>
+              <goal>sign</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
   </build>
 
-<distributionManagement>
-    <repository>
-      <id>ezy-deployment</id>
-      <name>Internal Releases</name>
-      <url>http://172.16.0.13:8081/repository/releases/</url>
-    </repository>
+  <distributionManagement>
     <snapshotRepository>
-      <id>ezy-deployment</id>
-      <name>Internal Releases</name>
-      <url>http://172.16.0.13:8081/repository/snapshots/</url>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
     </snapshotRepository>
+    <repository>
+      <id>ossrh</id>
+      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+    </repository>
   </distributionManagement>
-  <repositories>
-    <repository>
-      <id>hr-maven-repository</id>
-      <url>http://172.16.0.13:8081/nexus/content/groups/public/</url>
-    </repository>
-  </repositories>
-  <pluginRepositories>
-    <pluginRepository>
-      <id>hr-maven-repository</id>
-      <url>http://172.16.0.13:8081/nexus/content/groups/public/</url>
-    </pluginRepository>
-  </pluginRepositories>
-
- <!--  <distributionManagement>
-    <repository>
-      <id>xobo</id>
-      <name>Nexus Release Repository</name>
-      <url>https://nexus.xobo.org/content/repositories/xobo_releases/</url>
-    </repository>
-    <snapshotRepository>
-      <id>xobo</id>
-      <name>Nexus Snapshot Repository</name>
-      <url>https://nexus.xobo.org/content/repositories/xobo_snapshots/</url>
-    </snapshotRepository>
-  </distributionManagement> -->
 </project>
