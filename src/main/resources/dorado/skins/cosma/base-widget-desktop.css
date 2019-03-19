@@ -1765,7 +1765,8 @@
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	margin-left: 3px;
+	margin-left: 2px;
+	margin-right: 2px;
 	color: #569cee;
 	border-color: #569cee;
 	background-color: #fff;
