@@ -13,7 +13,9 @@
   position: relative;
 }
 .d-grid .header-table .header {
+  font-weight: bold;
   white-space: nowrap;
+  color: rgba(0,0,0,0.85);
   -webkit-transition-duration: 0.3s;
   -moz-transition-duration: 0.3s;
   -ms-transition-duration: 0.3s;
@@ -335,15 +337,15 @@
   color: #000000;
 }
 .d-grid .header-table .header {
-  color: #000000;
-  background-color: #ecf6ff;
+  color: rgba(0,0,0,0.85);
+  background-color: #f1f1f1;
   border-left: 1px transparent solid;
 /*   border-right: 1px #fcfcfc solid;
  */  border-bottom: 1px #fcfcfc solid;
 }
 .d-grid .header-table .hover-header,
 .d-grid .header-table .menu-open-header {
-  background-color: #d6ecff;
+  background-color: #fafafa;
 }
 .d-grid .header-table .header-option-button {
   border-left: 1px #cacaca solid;

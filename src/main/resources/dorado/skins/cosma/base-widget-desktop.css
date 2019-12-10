@@ -85,8 +85,8 @@
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	color: #569cee;
-	border-color: #569cee;
+	color: rgba(0,0,0,0.65);
+	border-color: #d9d9d9;
 	background-color: rgba(0, 0, 0, 0);
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
@@ -112,13 +112,13 @@
 }
 
 .d-button.d-button-hover {
-	color: #000000;
-	border-color: #bebebe;
-	background-color: #f7fbff;
+	color: #47abfc;
+	border-color: #47abfc;
+	background-color: #fff;
 }
 
 .d-button.d-button-hover .d-icon {
-	color: rgba(0, 0, 0, 0.7);
+	color: #47abfc;
 }
 
 .d-button.d-button-focused {
@@ -1765,10 +1765,8 @@
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
-	margin-left: 2px;
-	margin-right: 2px;
-	color: #569cee;
-	border-color: #569cee;
+	color: rgba(0,0,0,0.65);
+	border: 1px solid #d9d9d9;
 	background-color: #fff;
 	-webkit-transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
@@ -1793,8 +1791,8 @@
 }
 
 .d-toolbar .d-icon-button-hover, .d-toolbar .d-button-hover {
-	color: #000000;
-	background-color: #e6e6e6;
+	color: #40a9ff;
+	border-color: #40a9ff;
 }
 
 .d-toolbar .d-icon-button-click, .d-toolbar .d-button-click {
