@@ -34,6 +34,11 @@ button {
   color: #000000;
   background-color: #ffffff;
 }
+button {
+  color: rgba(0,0,0,0.65);
+  background-color: #ffffff;
+  border-color: #d9d9d9;
+}
 .d-ie input::-ms-clear {
   display: none;
 }

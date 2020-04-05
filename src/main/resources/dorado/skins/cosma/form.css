@@ -692,9 +692,12 @@
   position: relative;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-weight: bold;
+  
 }
 .d-form-element .form-label-required:before {
-  content: "\e683";
+/*  content: "\e683"; */
+  content: "";
   font-family: entypo;
 }
 .d-form-element .form-label-required:before {
