@@ -446,7 +446,7 @@
   border-top-color: rgba(0, 0, 0, 0);
 }
 .d-grid .data-table .selected-row {
-  background: #c6e8fd;
+  background: #f7f7f7;
   
 }
 .d-grid .data-table .current-row {

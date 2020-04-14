@@ -691,7 +691,7 @@
 
 .d-tabbar {
 	background-color: #fff;
-	border-bottom: 1px dashed #e1e7ed;
+	/*  border-bottom: 1px dashed #e1e7ed; */
 }
 
 .d-tabbar .tab {
@@ -933,12 +933,15 @@
 	-moz-border-radius-topright: 3px;
 	border-top-right-radius: 3px;
 	border: 1px solid #919191;
+	background-color: #ededed;
+	box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.8);
 }
 
 .d-tabbar.d-tabbar-top .tab-hover {
-	-webkit-box-shadow: inset 0 -3px 0 #047fc8;
-	-moz-box-shadow: inset 0 -3px 0 #047fc8;
-	box-shadow: inset 0 -3px 0 #047fc8;
+	-webkit-box-shadow: inset 0 -3px 0 #ededed;
+	-moz-box-shadow: inset 0 -3px 0 #ededed;
+	box-shadow: inset 0 -3px 0 #ededed;
+	background-color:#f7f7f7
 }
 
 .d-tabbar.d-tabbar-top .tab-selected {
@@ -967,12 +970,14 @@
 	box-shadow: inset 0 -3px 0 #047fc8;
 }
 
-.d-tabbar.d-tabbar-bottom .tab-selected {
-	-webkit-box-shadow: inset 0 -3px 0 #15a4fa;
-	-moz-box-shadow: inset 0 -3px 0 #15a4fa;
-	box-shadow: inset 0 -3px 0 #15a4fa;
+.d-tabbar.d-tabbar-top .tab-selected {
+	-webkit-box-shadow: inset 0 -3px 0 #919191;
+	-moz-box-shadow: inset 0 -3px 0 #919191;
+	box-shadow: inset 0 -2px 0 #fff;
+	font-size: 14px;
+	background-color: #fff;
 }
-/* tabcolumn */
+
 .d-tabcolumn {
 	position: relative;
 }
