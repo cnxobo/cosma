@@ -340,8 +340,8 @@
   color: rgba(0,0,0,0.85);
   background-color: #f1f1f1;
   border-left: 1px transparent solid;
-/*   border-right: 1px #fcfcfc solid;
- */  border-bottom: 1px #fcfcfc solid;
+  border-right: 1px #fcfcfc solid;
+  border-bottom: 1px #fcfcfc solid;
 }
 .d-grid .header-table .hover-header,
 .d-grid .header-table .menu-open-header {
@@ -437,7 +437,7 @@
   background-color: #c5e8fe;
 }
 .d-grid .data-table .odd-row {
- /*  background: #f7fbff; */
+  background: #fdfdfd;
 }
 .d-grid .data-table .hover-row {
   background: #f6fafe;
