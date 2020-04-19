@@ -446,7 +446,7 @@
   border-top-color: rgba(0, 0, 0, 0);
 }
 .d-grid .data-table .selected-row {
-  background: #f7f7f7;
+  background: #bfbfbf;
   
 }
 .d-grid .data-table .current-row {
@@ -455,6 +455,11 @@
 .d-grid .data-table .selected-row {
   color: #000;
 }
+
+.d-grid .data-table .current-row.selected-row{
+  background-color: #919191;
+}
+
 .d-grid .data-table .selected-row .node-button:hover,
 .d-grid .data-table .current-row .node-button:hover {
   border-color: #ffffff;
