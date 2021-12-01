@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
 Implementation-Vendor: xobo.org
 Implementation-Title: dorado-skin-cosma
-Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Version: 0.0.3-SNAPSHOT
 

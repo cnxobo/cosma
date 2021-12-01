@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.xobo.dorado</groupId>
   <artifactId>cosma-skin</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
 
   <name>${project.groupId}:${project.artifactId}</name>
   <description>a blue dorado skin</description>
@@ -66,12 +66,12 @@
 		<repository>
 			<id>xobo-repo</id>
 			<name>Internal Releases</name>
-			<url>https://nexus.xobo.org/repository/xobo_releases/</url>
+			<url>https://nexus.xobo.org/content/repositories/xobo_releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>xobo-repo</id>
 			<name>Internal Releases</name>
-			<url>https://nexus.xobo.org/repository/xobo_snapshots/</url>
+			<url>https://nexus.xobo.org/content/repositories/xobo_snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 

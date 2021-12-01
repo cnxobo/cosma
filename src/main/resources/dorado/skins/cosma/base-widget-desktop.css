@@ -1634,12 +1634,15 @@
 }
 
 .d-panel .panel-body {
-	background-color: #fff
+	background-color: #fff;
+	border-radius: 6px;
 }
 /* toolbar */
 .d-toolbar {
 	position: relative;
 	height: 26px;
+	border-radius: 6px;
+	background-color: #fff;
 }
 
 .d-toolbar .toolbar-left-wrap {
@@ -1717,7 +1720,6 @@
 
 .d-toolbar {
 	color: #000000;
-	background-color: #fafafa;
 }
 
 .d-toolbar .overflow-button {
